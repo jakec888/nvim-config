@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/jaconcondes/.config/nvim'
+let g:netrw_dirhist_2='/Users/jaconcondes/Desktop/work/chevrolet-silverado/src/js/components'
+let g:netrw_dirhist_1='/Users/jaconcondes/Desktop/work/chevrolet-silverado/src/js'
+let g:netrw_dirhist_0='/Users/jaconcondes/Desktop/work/chevrolet-silverado/src'
+let g:netrw_dirhist_9='/Users/jaconcondes/Desktop/work/chevrolet-silverado'
+let g:netrw_dirhist_8='/Users/jaconcondes/Desktop/work/chevrolet-silverado/src/js/components'
+let g:netrw_dirhist_7='/Users/jaconcondes/Desktop/work/chevrolet-silverado/src/js'
+let g:netrw_dirhist_6='/Users/jaconcondes/Desktop/work/chevrolet-silverado/src'
+let g:netrw_dirhist_5='/Users/jaconcondes/Desktop/work/chevrolet-silverado'
+let g:netrw_dirhist_4='/Users/jaconcondes/Desktop/work/chevrolet-silverado/src/js'
