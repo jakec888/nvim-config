@@ -19,6 +19,13 @@ nnoremap <SPACE> <Nop>
 
 let mapleader=" "
 
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+if (has("termguicolors"))
+ set termguicolors
+endif
+
+syntax enable
 colorscheme OceanicNext
 
 set termguicolors
@@ -33,4 +40,11 @@ nmap <leader>gr <Plug>(coc-references)
 nmap <leader>e :CocCommand explorer<CR>
 inoremap <expr> j pumvisible() ? "\<C-N>" : "j"
 inoremap <expr> k pumvisible() ? "\<C-P>" : "k"
+
+set clipboard=unnamedplus
+
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-h> :wincmd h<CR>
+nmap <silent> <c-l> :wincmd l<CR>
 
